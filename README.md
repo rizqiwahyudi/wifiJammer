@@ -30,10 +30,16 @@ To use WiFi Jammer, follow these steps:
     cd wifiJammer
     ```
 
-3. Run the script with elevated privileges:
+3. Install Dependencies `aircrack-ng`:
 
     ```bash
-    sudo python wifideauth.py
+    sudo apt install aircrack-ng
+    ```
+
+4. Run the script with elevated privileges:
+
+    ```bash
+    sudo python3 wifideauth.py
     ```
 
 ## Usage
